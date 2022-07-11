@@ -55,7 +55,6 @@ public class UserResource {
         User user = service.deleteById(id);
         if (user == null) {
             throw new UserNotFoundException("id-" + id);
-            System.out.println("Vivek");
         }
     }
 
